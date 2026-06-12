@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-12 06:56",
+ "generated": "2026-06-12 07:00",
  "sources": [
   {
    "name": "Royal Stage",
@@ -112,15 +112,6 @@
    "impact": 3,
    "note": "Cykel- og løberute gennem bydelen hele dagen. Største dag på året.",
    "source": "Manuel liste"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-08-21",
-   "time": "",
-   "title": "Nyt i kalenderen",
-   "venue": "Kulturværftet",
-   "impact": 1,
-   "source": "Kulturværftet"
   },
   {
    "cafe": "hillerod",
@@ -313,6 +304,15 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Nyt i kalenderen",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
   },
   {
    "cafe": "hillerod",
