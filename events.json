@@ -1,6 +1,18 @@
 {
- "generated": "2026-06-12 07:00",
+ "generated": "2026-06-12 07:20",
  "sources": [
+  {
+   "name": "TM:Royal Stage",
+   "ok": true,
+   "count": 0,
+   "strategy": "api"
+  },
+  {
+   "name": "TM:Farum Arena",
+   "ok": true,
+   "count": 0,
+   "strategy": "api"
+  },
   {
    "name": "Royal Stage",
    "ok": true,
@@ -20,22 +32,16 @@
    "strategy": "headings"
   },
   {
-   "name": "Farum Arena (TM)",
-   "ok": false,
-   "count": 0,
-   "error": "403 Client Error: Forbidden for url: https://www.ticketmaster.dk/venue/farum-arena-farum-billetter/faa/203"
-  },
-  {
    "name": "Hørsholm/Rungsted",
    "ok": true,
    "count": 1,
    "strategy": "headings"
   },
   {
-   "name": "Karens Minde",
-   "ok": false,
+   "name": "Kultunaut (Sydhavnen)",
+   "ok": true,
    "count": 0,
-   "error": "HTTPSConnectionPool(host='www.kulturhusetkarensminde.kk.dk', port=443): Max retries exceeded with url: / (Caused by Name"
+   "strategy": "rss"
   },
   {
    "name": "Manuel liste",
@@ -82,6 +88,15 @@
    "impact": 3,
    "note": "Bål, taler og musik — hele byen på gaden om aftenen.",
    "source": "Manuel liste"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-26",
+   "time": "",
+   "title": "Nyt i kalenderen",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
   },
   {
    "cafe": "helsingor",
@@ -304,15 +319,6 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Nyt i kalenderen",
-   "venue": "Kulturværftet",
-   "impact": 1,
-   "source": "Kulturværftet"
   },
   {
    "cafe": "hillerod",
