@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kaiser Vagtvarsling</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --espresso:#191310;
+  --espresso-2:#221A15;
+  --card:#2A211B;
+  --card-hover:#332821;
+  --cream:#F2E9DC;
+  --cream-dim:#B8AB99;
+  --cream-faint:#7A6F61;
+  --brass:#C98F4A;
+  --red:#E25744;
+  --red-bg:#3A211C;
+  --amber:#E8A33D;
+  --amber-bg:#372B18;
+  --green:#7FA37A;
+  --green-bg:#22291F;
+  --line:#3A2F26;
+  --radius:14px;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  background:var(--espresso);
+  color:var(--cream);
+  font-family:'Inter',system-ui,sans-serif;
+  font-size:15px;
+  line-height:1.5;
+  min-height:100vh;
+}
+::selection{background:var(--brass);color:var(--espresso)}
+
+/* ---------- HEADER ---------- */
+header{
+  border-bottom:1px solid var(--line);
+  background:var(--espresso-2);
+  position:sticky;top:0;z-index:50;
+}
+.header-inner{
+  max-width:1080px;margin:0 auto;
+  display:flex;align-items:center;gap:14px;
+  padding:14px 20px;
+}
+.logo-slot{
+  width:44px;height:44px;border-radius:10px;
+  background:var(--brass);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:22px;
+  color:var(--espresso);
+  flex-shrink:0;
+  /* I morgen: erstat dette div-indhold med <img src="logo.png"> */
+}
+.header-title{display:flex;flex-direction:column}
+.header-title h1{
+  font-family:'Archivo',sans-serif;
+  font-variation-settings:'wdth' 115;
+  font-weight:800;font-size:19px;letter-spacing:.01em;
+}
+.header-title span{
+  font-size:11.5px;color:var(--cream-faint);
+  text-transform:uppercase;letter-spacing:.14em;font-weight:500;
+}
+.header-status{
+  margin-left:auto;font-family:'JetBrains Mono',monospace;
+  font-size:11px;color:var(--cream-faint);text-align:right;line-height:1.4;
+}
+.header-status b{color:var(--green);font-weight:600}
+
+/* ---------- CONTROLS ---------- */
+.controls{
+  max-width:1080px;margin:0 auto;padding:26px 20px 8px;
+}
+.control-label{
+  font-size:11px;text-transform:uppercase;letter-spacing:.16em;
+  color:var(--cream-faint);font-weight:600;margin-bottom:10px;
+}
+.cafe-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}
+.chip{
+  border:1px solid var(--line);
+  background:var(--card);
+  color:var(--cream-dim);
+  padding:9px 18px;border-radius:99px;
+  font-family:'Inter',sans-serif;font-size:13.5px;font-weight:600;
+  cursor:pointer;transition:all .18s ease;
+  display:flex;align-items:center;gap:8px;
+}
+.chip .dot{width:8px;height:8px;border-radius:50%;background:var(--cream-faint);transition:background .18s}
+.chip:hover{background:var(--card-hover);color:var(--cream)}
+.chip.active{
+  background:var(--cream);color:var(--espresso);border-color:var(--cream);
+}
+.chip.active .dot{background:var(--brass)}
+.chip.soon{opacity:.55}
+.chip.soon::after{content:'snart';font-size:10px;font-weight:500;color:var(--brass);margin-left:2px}
+.chip.active.soon{opacity:1}
+
+.date-row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:8px}
+.date-field{display:flex;flex-direction:column;gap:6px}
+.date-field label{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--cream-faint);font-weight:600}
+.date-field input{
+  background:var(--card);border:1px solid var(--line);color:var(--cream);
+  border-radius:10px;padding:10px 14px;font-family:'JetBrains Mono',monospace;
+  font-size:13.5px;outline:none;transition:border .18s;
+  color-scheme:dark;
+}
+.date-field input:focus{border-color:var(--brass)}
+.quick-btns{display:flex;gap:8px;margin-left:4px}
+.quick{
+  background:transparent;border:1px solid var(--line);color:var(--cream-dim);
+  padding:10px 14px;border-radius:10px;font-size:12.5px;font-weight:600;
+  cursor:pointer;transition:all .15s;
+}
+.quick:hover{border-color:var(--brass);color:var(--brass)}
+
+/* ---------- SUMMARY STRIP ---------- */
+.summary{
+  max-width:1080px;margin:0 auto;padding:14px 20px 6px;
+}
+.summary-inner{
+  display:flex;gap:0;border:1px solid var(--line);border-radius:var(--radius);
+  overflow:hidden;background:var(--espresso-2);
+}
+.sum-cell{
+  flex:1;padding:16px 18px;border-right:1px solid var(--line);
+}
+.sum-cell:last-child{border-right:none}
+.sum-num{
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:34px;line-height:1;
+  font-variation-settings:'wdth' 110;
+}
+.sum-num.red{color:var(--red)}
+.sum-num.amber{color:var(--amber)}
+.sum-num.green{color:var(--green)}
+.sum-label{font-size:11.5px;color:var(--cream-faint);text-transform:uppercase;letter-spacing:.1em;font-weight:600;margin-top:5px}
+
+/* ---------- HEAT STRIP ---------- */
+.heatstrip-wrap{max-width:1080px;margin:0 auto;padding:18px 20px 4px}
+.heatstrip{
+  display:flex;gap:3px;height:34px;border-radius:8px;overflow:hidden;
+}
+.heat-day{
+  flex:1;background:var(--card);position:relative;cursor:pointer;
+  transition:transform .12s;min-width:4px;
+}
+.heat-day:hover{transform:scaleY(1.18)}
+.heat-day.lvl-3{background:var(--red)}
+.heat-day.lvl-2{background:var(--amber)}
+.heat-day.lvl-1{background:var(--green);opacity:.55}
+.heatstrip-legend{
+  display:flex;gap:18px;margin-top:10px;font-size:11.5px;color:var(--cream-faint);
+}
+.leg{display:flex;align-items:center;gap:6px}
+.leg i{width:10px;height:10px;border-radius:3px;display:inline-block}
+.leg i.r{background:var(--red)} .leg i.a{background:var(--amber)} .leg i.g{background:var(--green);opacity:.55} .leg i.n{background:var(--card)}
+
+/* ---------- DAY LIST ---------- */
+.days{max-width:1080px;margin:0 auto;padding:18px 20px 80px;display:flex;flex-direction:column;gap:12px}
+.day-card{
+  border:1px solid var(--line);border-radius:var(--radius);
+  background:var(--espresso-2);overflow:hidden;
+  display:grid;grid-template-columns:110px 1fr;
+  animation:fadeUp .35s ease both;
+}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.day-date{
+  padding:18px 14px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  border-right:1px solid var(--line);gap:2px;
+}
+.day-date .dow{font-size:11px;text-transform:uppercase;letter-spacing:.14em;color:var(--cream-faint);font-weight:600}
+.day-date .num{
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:40px;line-height:1;
+  font-variation-settings:'wdth' 105;
+}
+.day-date .mon{font-size:12px;color:var(--cream-dim);font-weight:500}
+.day-card.lvl-3 .day-date{background:var(--red-bg)}
+.day-card.lvl-3 .day-date .num{color:var(--red)}
+.day-card.lvl-2 .day-date{background:var(--amber-bg)}
+.day-card.lvl-2 .day-date .num{color:var(--amber)}
+.day-card.lvl-1 .day-date{background:var(--green-bg)}
+.day-card.lvl-1 .day-date .num{color:var(--green)}
+
+.day-body{padding:14px 18px 16px;display:flex;flex-direction:column;gap:10px}
+.day-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.badge{
+  font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+  padding:4px 11px;border-radius:99px;
+}
+.badge.r{background:var(--red);color:#fff}
+.badge.a{background:var(--amber);color:var(--espresso)}
+.badge.g{background:var(--green);color:var(--espresso)}
+.advice{font-size:13px;color:var(--cream-dim);font-weight:500}
+.advice b{color:var(--cream);font-weight:600}
+
+.event{
+  display:flex;gap:12px;align-items:flex-start;
+  padding:11px 14px;border-radius:10px;background:var(--card);
+  border:1px solid transparent;transition:border .15s;
+}
+.event:hover{border-color:var(--line)}
+.event-time{
+  font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--brass);
+  font-weight:600;min-width:46px;padding-top:2px;
+}
+.event-info{flex:1}
+.event-title{font-weight:600;font-size:14.5px}
+.event-meta{font-size:12.5px;color:var(--cream-faint);margin-top:2px}
+.event-impact{
+  font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;align-self:center;white-space:nowrap;
+}
+.event-impact.r{background:var(--red-bg);color:var(--red)}
+.event-impact.a{background:var(--amber-bg);color:var(--amber)}
+.event-impact.g{background:var(--green-bg);color:var(--green)}
+
+.empty{
+  text-align:center;padding:60px 20px;color:var(--cream-faint);
+}
+.empty .big{font-family:'Archivo',sans-serif;font-weight:800;font-size:20px;color:var(--cream-dim);margin-bottom:6px}
+
+/* ---------- FOOTER ---------- */
+footer{
+  border-top:1px solid var(--line);padding:18px 20px;text-align:center;
+  font-size:11.5px;color:var(--cream-faint);
+}
+footer b{color:var(--cream-dim)}
+
+@media(max-width:640px){
+  .day-card{grid-template-columns:84px 1fr}
+  .day-date .num{font-size:30px}
+  .summary-inner{flex-direction:column}
+  .sum-cell{border-right:none;border-bottom:1px solid var(--line)}
+  .sum-cell:last-child{border-bottom:none}
+  .header-status{display:none}
+}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="logo-slot" id="logoSlot">K</div>
+    <div class="header-title">
+      <h1>Kaiser Vagtvarsling</h1>
+      <span>Eventoverblik &amp; bemandingsvarsler</span>
+    </div>
+    <div class="header-status">
+      Datakilder: <b>● OK</b><br>
+      Sidst opdateret: 11.06.2026 04:00
+    </div>
+  </div>
+</header>
+
+<section class="controls">
+  <div class="control-label">Vælg café</div>
+  <div class="cafe-chips" id="cafeChips"></div>
+
+  <div class="control-label">Vagtplanperiode</div>
+  <div class="date-row">
+    <div class="date-field">
+      <label for="dFrom">Fra</label>
+      <input type="date" id="dFrom" value="2026-06-11">
+    </div>
+    <div class="date-field">
+      <label for="dTo">Til</label>
+      <input type="date" id="dTo" value="2026-07-09">
+    </div>
+    <div class="quick-btns">
+      <button class="quick" data-days="14">14 dage</button>
+      <button class="quick" data-days="28">4 uger</button>
+      <button class="quick" data-days="56">8 uger</button>
+    </div>
+  </div>
+</section>
+
+<section class="summary">
+  <div class="summary-inner" id="summaryBox"></div>
+</section>
+
+<section class="heatstrip-wrap">
+  <div class="control-label">Belastning i perioden</div>
+  <div class="heatstrip" id="heatStrip"></div>
+  <div class="heatstrip-legend">
+    <span class="leg"><i class="r"></i> Høj belastning</span>
+    <span class="leg"><i class="a"></i> Forhøjet</span>
+    <span class="leg"><i class="g"></i> Mindre event</span>
+    <span class="leg"><i class="n"></i> Normal dag</span>
+  </div>
+</section>
+
+<main class="days" id="dayList"></main>
+
+<footer>
+  <b>Kaiser Vagtvarsling v0.1 (prototype)</b> · Dummy-data · Automatisk dataopdatering via GitHub Actions kommer i v1.0
+</footer>
+
+<script>
+/* =========================================================
+   DUMMY DATA — i v1.0 erstattes dette af fetch('events.json')
+   genereret af GitHub Action
+   ========================================================= */
+
+const CAFES = [
+  {id:'hillerod',  name:'Hillerød'},
+  {id:'helsingor', name:'Helsingør'},
+  {id:'farum',     name:'Farum'},
+  {id:'vanlose',   name:'Vanløse'},
+  {id:'horsholm',  name:'Hørsholm'},
+  {id:'sydhavnen', name:'Sydhavnen', opens:'2026-07-08', address:'Christians Langelands'},
+];
+
+/* impact: 3 = rød (høj), 2 = gul (forhøjet), 1 = grøn (mindre) */
+/* FALLBACK-data — bruges kun hvis events.json ikke kan hentes */
+let EVENTS = [
+  /* ---- HILLERØD / Royal Stage ---- */
+  {cafe:'hillerod', date:'2026-06-13', time:'15:00', title:'MGP 2026 — stjernerne live', venue:'Royal Stage', impact:2, note:'Familiekoncert, mange børnefamilier i byen fra eftermiddag'},
+  {cafe:'hillerod', date:'2026-06-20', time:'20:00', title:'SHAGGY', venue:'Royal Stage', impact:3, note:'International hovednavn — forvent fuld arena (~2.000)'},
+  {cafe:'hillerod', date:'2026-06-20', time:'17:30', title:'Koncertmenu før SHAGGY', venue:'Royal Stage', impact:1, note:'Spisende gæster i byen før koncerten'},
+  {cafe:'hillerod', date:'2026-07-04', time:'10:00', title:'Sommermarked i bymidten', venue:'Torvet', impact:2, note:'Lørdagsmarked — øget gågadetrafik hele dagen'},
+  {cafe:'hillerod', date:'2026-06-27', time:'13:00', title:'Slotssø Classic veteranbiltræf', venue:'Slotssøen', impact:1, note:'Mindre lokalt event'},
+
+  /* ---- HELSINGØR / Kulturværftet + Kronborg ---- */
+  {cafe:'helsingor', date:'2026-06-25', time:'19:00', title:'Koncert i gården', venue:'Toldkammeret', impact:1, note:'Mindre koncert, lokalt publikum'},
+  {cafe:'helsingor', date:'2026-06-26', time:'16:30', title:'Sommerkoncert: Medina + TV-2 + Annika', venue:'Kulturværftet, havnefronten', impact:3, note:'UDSOLGT udendørskoncert — tusindvis i havneområdet fra kl. 16'},
+  {cafe:'helsingor', date:'2026-06-27', time:'11:00', title:'Hamlet Highlights — sæsonstart', venue:'Kronborg', impact:2, note:'Turistsæson begynder, daglig strøm 27/6–31/8'},
+  {cafe:'helsingor', date:'2026-07-02', time:'19:00', title:'Sommertorsdag — livekoncert', venue:'Kulturværftet', impact:2, note:'Ugentlig torsdagskoncert hele sommeren'},
+  {cafe:'helsingor', date:'2026-07-09', time:'19:00', title:'Sommertorsdag — livekoncert', venue:'Kulturværftet', impact:2, note:'Ugentlig torsdagskoncert hele sommeren'},
+  {cafe:'helsingor', date:'2026-06-23', time:'18:00', title:'Sankthans i Kulturhavnen', venue:'Kulturhavn Kronborg', impact:3, note:'Bål, taler og musik — hele byen på gaden om aftenen'},
+
+  /* ---- FARUM / Farum Arena ---- */
+  {cafe:'farum', date:'2026-06-14', time:'10:00', title:'Furesø Sommerstævne (håndbold, ungdom)', venue:'Farum Arena', impact:2, note:'Heldagsstævne — forældre og hold i byen hele dagen'},
+  {cafe:'farum', date:'2026-06-21', time:'12:00', title:'Loppemarked på Farum Bytorv', venue:'Bytorvet', impact:1, note:'Søndagstrafik, let forhøjet'},
+  {cafe:'farum', date:'2026-07-05', time:'14:00', title:'Sommerteater for børn', venue:'Farum Arena', impact:1, note:'Familieevent, eftermiddag'},
+
+  /* ---- VANLØSE ---- */
+  {cafe:'vanlose', date:'2026-06-14', time:'12:00', title:'Vanløse IF — hjemmekamp (3. Division)', venue:'Vanløse Idrætspark', impact:1, note:'Fast lørdagspublikum'},
+  {cafe:'vanlose', date:'2026-06-21', time:'09:00', title:'Copenhagen Sprint (cykelløb) — rute gennem NV', venue:'Københavns gader', impact:2, note:'Vejlukninger og publikum langs ruten'},
+  {cafe:'vanlose', date:'2026-07-04', time:'10:00', title:'Sommerloppemarked Vanløse', venue:'Kulturstationen', impact:1, note:'Lokal lørdagstrafik'},
+
+  /* ---- HØRSHOLM ---- */
+  {cafe:'horsholm', date:'2026-06-13', time:'10:00', title:'Kræmmermarked ved Ridebanen', venue:'Hørsholm Ridebane', impact:2, note:'Weekendmarked, god formiddags-/frokosttrafik'},
+  {cafe:'horsholm', date:'2026-06-27', time:'16:00', title:'Sommerkoncert i Slotshaven', venue:'Hørsholm Slotshave', impact:2, note:'Udendørskoncert — picnicgæster fra eftermiddag'},
+  {cafe:'horsholm', date:'2026-07-08', time:'17:00', title:'Onsdagsløb — Rungsted Havn', venue:'Rungsted Havn', impact:1, note:'Lokalt motionsløb'},
+
+  /* ---- SYDHAVNEN ---- */
+  {cafe:'sydhavnen', date:'2026-06-19', time:'16:00', title:'Fredagskoncert', venue:'Karens Minde Kulturhus', impact:1, note:'Lokalt publikum'},
+  {cafe:'sydhavnen', date:'2026-06-23', time:'19:00', title:'Sankthans ved Karens Minde', venue:'Karens Minde-grunden', impact:3, note:'Bål og grisefest — kvarterets største aften'},
+  {cafe:'sydhavnen', date:'2026-07-03', time:'15:00', title:'BaneGaarden sommermarked', venue:'BaneGaarden', impact:2, note:'Weekendmarked med stor tiltrækning fra hele byen'},
+];
+
+const MONTHS = ['jan','feb','mar','apr','maj','jun','jul','aug','sep','okt','nov','dec'];
+const DOWS = ['Søn','Man','Tir','Ons','Tor','Fre','Lør'];
+const ADVICE = {
+  3:'<b>Skru op for bemandingen.</b> Overvej +1 i køkkenet og +1 på gulvet — og tjek varelager dagen før.',
+  2:'<b>Forhøjet pres.</b> Overvej +1 på gulvet i spidsbelastningen omkring eventstart.',
+  1:'Mindre event i byen — normal bemanding, men hold øje.',
+};
+
+let activeCafe = 'hillerod';
+
+/* ---------- RENDER: chips ---------- */
+const chipWrap = document.getElementById('cafeChips');
+CAFES.forEach(c=>{
+  const b = document.createElement('button');
+  b.className = 'chip' + (c.soon?' soon':'') + (c.id===activeCafe?' active':'');
+  b.innerHTML = `<span class="dot"></span>${c.name}`;
+  b.onclick = ()=>{ activeCafe = c.id; document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active')); b.classList.add('active'); render(); };
+  chipWrap.appendChild(b);
+});
+
+/* ---------- quick buttons ---------- */
+document.querySelectorAll('.quick').forEach(q=>{
+  q.onclick = ()=>{
+    const from = document.getElementById('dFrom').value || '2026-06-11';
+    const d = new Date(from);
+    d.setDate(d.getDate() + parseInt(q.dataset.days)-1);
+    document.getElementById('dTo').value = d.toISOString().slice(0,10);
+    render();
+  };
+});
+document.getElementById('dFrom').onchange = render;
+document.getElementById('dTo').onchange = render;
+
+/* ---------- core render ---------- */
+function render(){
+  const from = document.getElementById('dFrom').value;
+  const to = document.getElementById('dTo').value;
+  if(!from || !to || from > to){ return; }
+
+  const cafe = CAFES.find(c=>c.id===activeCafe);
+
+  /* events for cafe in range, grouped by date */
+  let evts = EVENTS.filter(e => e.cafe===activeCafe && e.date>=from && e.date<=to);
+  /* Sydhavnen: skjul events før åbningsdatoen */
+  if(cafe.opens) evts = evts.filter(e => e.date >= cafe.opens);
+  evts = evts.sort((a,b)=> a.date===b.date ? (a.time||'').localeCompare(b.time||'') : a.date.localeCompare(b.date));
+  const byDate = {};
+  evts.forEach(e=>{ (byDate[e.date] = byDate[e.date]||[]).push(e); });
+
+  /* day level = max impact that day */
+  const dayLevel = {};
+  Object.keys(byDate).forEach(d=>{ dayLevel[d] = Math.max(...byDate[d].map(e=>e.impact)); });
+
+  /* ---- summary ---- */
+  const totalDays = Math.round((new Date(to)-new Date(from))/86400000)+1;
+  const reds = Object.values(dayLevel).filter(l=>l===3).length;
+  const ambers = Object.values(dayLevel).filter(l=>l===2).length;
+  const greens = Object.values(dayLevel).filter(l=>l===1).length;
+  document.getElementById('summaryBox').innerHTML = `
+    <div class="sum-cell"><div class="sum-num red">${reds}</div><div class="sum-label">Røde dage</div></div>
+    <div class="sum-cell"><div class="sum-num amber">${ambers}</div><div class="sum-label">Gule dage</div></div>
+    <div class="sum-cell"><div class="sum-num green">${greens}</div><div class="sum-label">Grønne dage</div></div>
+    <div class="sum-cell"><div class="sum-num" style="color:var(--cream-dim)">${totalDays}</div><div class="sum-label">Dage i perioden</div></div>`;
+
+  /* ---- heat strip ---- */
+  const strip = document.getElementById('heatStrip');
+  strip.innerHTML = '';
+  for(let i=0;i<totalDays;i++){
+    const d = new Date(from); d.setDate(d.getDate()+i);
+    const key = d.toISOString().slice(0,10);
+    const lvl = dayLevel[key]||0;
+    const cell = document.createElement('div');
+    cell.className = 'heat-day' + (lvl?` lvl-${lvl}`:'');
+    cell.title = `${key}${lvl?' — '+byDate[key].map(e=>e.title).join(', '):''}`;
+    if(lvl) cell.onclick = ()=>{ const t=document.getElementById('day-'+key); if(t) t.scrollIntoView({behavior:'smooth',block:'center'}); };
+    strip.appendChild(cell);
+  }
+
+  /* ---- day cards ---- */
+  const list = document.getElementById('dayList');
+  list.innerHTML = '';
+  /* Åbningsbanner hvis cafeen åbner inden for/efter perioden */
+  if(cafe.opens && to >= cafe.opens){
+    const od = new Date(cafe.opens);
+    list.innerHTML += `<div class="empty" style="padding:18px;border:1px dashed var(--brass);border-radius:var(--radius);color:var(--brass);font-weight:600">
+      ${cafe.name} åbner ${od.getDate()}. ${MONTHS[od.getMonth()]} ${od.getFullYear()} · ${cafe.address||''}</div>`;
+  }
+  const dates = Object.keys(byDate).sort();
+  if(!dates.length){
+    list.innerHTML += `<div class="empty"><div class="big">Ingen kendte events i perioden</div>Normal bemanding ser fin ud for ${cafe.name}. Tjek igen tættere på — data opdateres hver nat.</div>`;
+    return;
+  }
+  const badgeTxt = {3:['r','Høj belastning'],2:['a','Forhøjet'],1:['g','Mindre event']};
+  dates.forEach((dt,i)=>{
+    const d = new Date(dt);
+    const lvl = dayLevel[dt];
+    const [bc, bt] = badgeTxt[lvl];
+    const card = document.createElement('article');
+    card.className = `day-card lvl-${lvl}`;
+    card.id = 'day-'+dt;
+    card.style.animationDelay = (i*0.04)+'s';
+    card.innerHTML = `
+      <div class="day-date">
+        <span class="dow">${DOWS[d.getDay()]}</span>
+        <span class="num">${d.getDate()}</span>
+        <span class="mon">${MONTHS[d.getMonth()]} ${d.getFullYear()}</span>
+      </div>
+      <div class="day-body">
+        <div class="day-head">
+          <span class="badge ${bc}">${bt}</span>
+          <span class="advice">${ADVICE[lvl]}</span>
+        </div>
+        ${byDate[dt].map(e=>`
+          <div class="event">
+            <span class="event-time">${e.time}</span>
+            <div class="event-info">
+              <div class="event-title">${e.title}</div>
+              <div class="event-meta">${e.venue}${e.note ? ' · '+e.note : ''}${e.source && e.source!=='Manuel liste' ? ' · <span style="opacity:.6">'+e.source+'</span>' : ''}</div>
+            </div>
+            <span class="event-impact ${e.impact===3?'r':e.impact===2?'a':'g'}">${e.impact===3?'HØJ':e.impact===2?'MEDIUM':'LAV'}</span>
+          </div>`).join('')}
+      </div>`;
+    list.appendChild(card);
+  });
+}
+
+/* ---------- LIVE DATA: hent events.json (genereres hver nat af GitHub Action) ---------- */
+async function loadLive(){
+  try{
+    const r = await fetch('events.json?t=' + Date.now());
+    if(!r.ok) throw new Error(r.status);
+    const data = await r.json();
+    if(Array.isArray(data.events) && data.events.length){
+      EVENTS = data.events;
+      const ok = (data.sources||[]).filter(s=>s.ok).length;
+      const total = (data.sources||[]).length;
+      const bad = (data.sources||[]).filter(s=>!s.ok).map(s=>s.name);
+      document.querySelector('.header-status').innerHTML =
+        `Datakilder: <b style="color:${bad.length?'var(--amber)':'var(--green)'}">● ${ok}/${total} OK</b>` +
+        (bad.length?`<br><span title="${bad.join(', ')}">Fejl: ${bad.join(', ').slice(0,40)}</span>`:'') +
+        `<br>Sidst opdateret: ${data.generated||'—'}`;
+    }
+  }catch(e){
+    document.querySelector('.header-status').innerHTML =
+      'Datakilder: <b style="color:var(--amber)">● demo-data</b><br>events.json ikke fundet endnu';
+  }
+  render();
+}
+loadLive();
+</script>
+</body>
+</html>
