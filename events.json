@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-12 07:20",
+ "generated": "2026-06-12 07:50",
  "sources": [
   {
    "name": "TM:Royal Stage",
@@ -20,9 +20,21 @@
    "strategy": "headings"
   },
   {
+   "name": "Klaverfabrikken",
+   "ok": true,
+   "count": 0,
+   "strategy": "headings"
+  },
+  {
    "name": "Kulturværftet",
    "ok": true,
    "count": 1,
+   "strategy": "headings"
+  },
+  {
+   "name": "Toldkammeret",
+   "ok": true,
+   "count": 75,
    "strategy": "headings"
   },
   {
@@ -52,6 +64,15 @@
  ],
  "events": [
   {
+   "cafe": "helsingor",
+   "date": "2026-06-12",
+   "time": "",
+   "title": "Fælleslæsning",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-06-13",
    "time": "15:00",
@@ -59,6 +80,51 @@
    "venue": "Royal Stage",
    "impact": 3,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-15",
+   "time": "",
+   "title": "Podcastværkstedet – Klip, rytme & fortælling",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-16",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-17",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-17",
+   "time": "",
+   "title": "Mad & Mennesker",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-18",
+   "time": "",
+   "title": "Fælleslæsning",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -81,6 +147,15 @@
   },
   {
    "cafe": "helsingor",
+   "date": "2026-06-22",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
    "date": "2026-06-23",
    "time": "18:00",
    "title": "Sankthans i Kulturhavnen",
@@ -91,12 +166,30 @@
   },
   {
    "cafe": "helsingor",
-   "date": "2026-06-26",
+   "date": "2026-06-24",
    "time": "",
-   "title": "Nyt i kalenderen",
-   "venue": "Kulturværftet",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
    "impact": 1,
-   "source": "Kulturværftet"
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-25",
+   "time": "",
+   "title": "Sandløber",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-25",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
@@ -109,6 +202,87 @@
    "source": "Manuel liste"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-06-29",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-06-30",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-01",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-02",
+   "time": "",
+   "title": "Kokomo Kings (SE)",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-02",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-03",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-06",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-07",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-08",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "sydhavnen",
    "date": "2026-07-08",
    "time": "08:00",
@@ -117,6 +291,168 @@
    "impact": 3,
    "note": "Åbningsdag — fuld bemanding og ekstra hænder til opstart.",
    "source": "Manuel liste"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-09",
+   "time": "",
+   "title": "Randi Laubek",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-09",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-10",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-13",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-14",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-15",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-15",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-15",
+   "time": "",
+   "title": "Kolonien (SE)",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-16",
+   "time": "",
+   "title": "Hyg & Byg",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-17",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-20",
+   "time": "",
+   "title": "Baskery (SE)",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-23",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-27",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-07-29",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-03",
+   "time": "",
+   "title": "Solo Swingdans i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-12",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-12",
+   "time": "",
+   "title": "Absurd",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-13",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "vanlose",
@@ -129,6 +465,42 @@
    "source": "Manuel liste"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-08-19",
+   "time": "",
+   "title": "Fríða Saiya (FO)",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-25",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-26",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-27",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-08-28",
    "time": "",
@@ -136,6 +508,15 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-28",
+   "time": "",
+   "title": "Samtalecafe og erindringsdialoger",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -172,6 +553,15 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-01",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -219,6 +609,33 @@
    "source": "Royal Stage"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-09-07",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-09",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-16",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-09-18",
    "time": "",
@@ -257,6 +674,33 @@
    "source": "Manuel liste"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-09-23",
+   "time": "",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-24",
+   "time": "",
+   "title": "Solo Swingdans i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-25",
+   "time": "",
+   "title": "Samtalecafe og erindringsdialoger",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-09-25",
    "time": "20:00",
@@ -274,6 +718,42 @@
    "impact": 2,
    "note": "Stor gymnastikevent, fyldt arena.",
    "source": "Manuel liste"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-29",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-30",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-05",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-07",
+   "time": "",
+   "title": "Vilma Crow",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "horsholm",
@@ -303,6 +783,69 @@
    "source": "Royal Stage"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-10-15",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-21",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-21",
+   "time": "",
+   "title": "Samtalecafe og erindringsdialoger",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-22",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-27",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-28",
+   "time": "",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-29",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-10-30",
    "time": "",
@@ -310,6 +853,33 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-10-30",
+   "time": "",
+   "title": "Mandagsjam",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-02",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-04",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -321,6 +891,33 @@
    "source": "Royal Stage"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-11-18",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-18",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-20",
+   "time": "",
+   "title": "Samtalecafe og erindringsdialoger",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-11-21",
    "time": "19:30",
@@ -330,6 +927,60 @@
    "source": "Royal Stage"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-11-22",
+   "time": "",
+   "title": "Nyt i kalenderen",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-24",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-25",
+   "time": "",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-26",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-02",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-09",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-12-10",
    "time": "20:00",
@@ -337,6 +988,42 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-16",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-16",
+   "time": "",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-17",
+   "time": "",
+   "title": "Solo Swingdans i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-18",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
