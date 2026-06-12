@@ -230,10 +230,13 @@ def fetch_kultunaut_sydhavnen(today):
 
 # ── HTML-scraper-kilder (uændret) ───────────────────────────────────────
 SCRAPE_SOURCES = [
-    {"name":"Royal Stage",      "cafe":"hillerod",  "url":"https://royalstage.dk/kalender/",               "venue":"Royal Stage",         "default_impact":2},
-    {"name":"Kulturværftet",    "cafe":"helsingor", "url":"https://kuto.dk/kalender/",                     "venue":"Kulturværftet",       "default_impact":1},
-    {"name":"Kronborg",         "cafe":"helsingor", "url":"https://kronborg.dk/en/events/tours-and-events","venue":"Kronborg",            "default_impact":1},
-    {"name":"Hørsholm/Rungsted","cafe":"horsholm",  "url":"https://horsholm-rungsted.dk/eventkalender/",   "venue":"Hørsholm",            "default_impact":1},
+    {"name":"Royal Stage",       "cafe":"hillerod",  "url":"https://royalstage.dk/kalender/",               "venue":"Royal Stage",         "default_impact":2},
+    {"name":"Klaverfabrikken",   "cafe":"hillerod",  "url":"https://klaverfabrikken.dk/kalender/",          "venue":"Klaverfabrikken",     "default_impact":1},
+    {"name":"Kulturværftet",     "cafe":"helsingor", "url":"https://kuto.dk/kalender/",                     "venue":"Kulturværftet",       "default_impact":1},
+    {"name":"Toldkammeret",      "cafe":"helsingor", "url":"https://kuto.dk/toldkammeret/",                 "venue":"Toldkammeret",        "default_impact":1},
+    {"name":"Kronborg",          "cafe":"helsingor", "url":"https://kronborg.dk/en/events/tours-and-events","venue":"Kronborg",            "default_impact":1},
+    {"name":"Hørsholm/Rungsted", "cafe":"horsholm",  "url":"https://horsholm-rungsted.dk/eventkalender/",   "venue":"Hørsholm",            "default_impact":1},
+]
 ]
 
 def fetch_scrape_source(src, today):
