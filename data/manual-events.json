@@ -1,0 +1,74 @@
+[
+  {
+    "cafe": "vanlose",
+    "date": "2026-08-16",
+    "time": "07:00",
+    "title": "IRONMAN Copenhagen — rute gennem Vanløse",
+    "venue": "Københavns gader",
+    "impact": 3,
+    "note": "Cykel- og løberute gennem bydelen hele dagen. Største dag på året."
+  },
+  {
+    "cafe": "vanlose",
+    "date": "2026-09-19",
+    "time": "09:00",
+    "title": "VM i halvmaraton (World Athletics) — dag 1",
+    "venue": "Københavns gader",
+    "impact": 3,
+    "note": "Road Mile + indledende løb. Massiv international begivenhed."
+  },
+  {
+    "cafe": "vanlose",
+    "date": "2026-09-20",
+    "time": "09:00",
+    "title": "VM i halvmaraton (World Athletics) — dag 2 + CPH Half",
+    "venue": "Københavns gader",
+    "impact": 3,
+    "note": "Halvmaraton-finaler + masseløb. Vejlukninger og publikum i hele byen."
+  },
+  {
+    "cafe": "hillerod",
+    "date": "2026-06-20",
+    "time": "20:00",
+    "title": "SHAGGY — koncert",
+    "venue": "Royal Stage",
+    "impact": 3,
+    "note": "Internationalt hovednavn, forvent fuld arena (~2.000)."
+  },
+  {
+    "cafe": "helsingor",
+    "date": "2026-06-23",
+    "time": "18:00",
+    "title": "Sankthans i Kulturhavnen",
+    "venue": "Kulturhavn Kronborg",
+    "impact": 3,
+    "note": "Bål, taler og musik — hele byen på gaden om aftenen."
+  },
+  {
+    "cafe": "helsingor",
+    "date": "2026-06-26",
+    "time": "16:30",
+    "title": "Sommerkoncert: Medina + TV-2 + Annika (UDSOLGT)",
+    "venue": "Kulturværftet, havnefronten",
+    "impact": 3,
+    "note": "Udendørs storkoncert — tusindvis i havneområdet fra kl. 16."
+  },
+  {
+    "cafe": "farum",
+    "date": "2026-09-26",
+    "time": "16:00",
+    "title": "AIRTOX FACEOFF League 2026 — Runde 4",
+    "venue": "Farum Arena",
+    "impact": 2,
+    "note": "Stor gymnastikevent, fyldt arena."
+  },
+  {
+    "cafe": "sydhavnen",
+    "date": "2026-07-08",
+    "time": "08:00",
+    "title": "🎉 Café Kaiser Sydhavnen åbner!",
+    "venue": "Christians Langelands",
+    "impact": 3,
+    "note": "Åbningsdag — fuld bemanding og ekstra hænder til opstart."
+  }
+]
