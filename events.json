@@ -1,6 +1,42 @@
 {
- "generated": "seed (kør GitHub Action for live data)",
+ "generated": "2026-06-12 06:56",
  "sources": [
+  {
+   "name": "Royal Stage",
+   "ok": true,
+   "count": 26,
+   "strategy": "headings"
+  },
+  {
+   "name": "Kulturværftet",
+   "ok": true,
+   "count": 1,
+   "strategy": "headings"
+  },
+  {
+   "name": "Kronborg",
+   "ok": true,
+   "count": 0,
+   "strategy": "headings"
+  },
+  {
+   "name": "Farum Arena (TM)",
+   "ok": false,
+   "count": 0,
+   "error": "403 Client Error: Forbidden for url: https://www.ticketmaster.dk/venue/farum-arena-farum-billetter/faa/203"
+  },
+  {
+   "name": "Hørsholm/Rungsted",
+   "ok": true,
+   "count": 1,
+   "strategy": "headings"
+  },
+  {
+   "name": "Karens Minde",
+   "ok": false,
+   "count": 0,
+   "error": "HTTPSConnectionPool(host='www.kulturhusetkarensminde.kk.dk', port=443): Max retries exceeded with url: / (Caused by Name"
+  },
   {
    "name": "Manuel liste",
    "ok": true,
@@ -11,12 +47,31 @@
  "events": [
   {
    "cafe": "hillerod",
+   "date": "2026-06-13",
+   "time": "15:00",
+   "title": "MGP Tour 2026 – UDSOLGT",
+   "venue": "Royal Stage",
+   "impact": 3,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
    "date": "2026-06-20",
    "time": "20:00",
    "title": "SHAGGY — koncert",
    "venue": "Royal Stage",
    "impact": 3,
-   "note": "Internationalt hovednavn, forvent fuld arena (~2.000)."
+   "note": "Internationalt hovednavn, forvent fuld arena (~2.000).",
+   "source": "Manuel liste"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-06-20",
+   "time": "20:00",
+   "title": "SHAGGY",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
   },
   {
    "cafe": "helsingor",
@@ -25,7 +80,8 @@
    "title": "Sankthans i Kulturhavnen",
    "venue": "Kulturhavn Kronborg",
    "impact": 3,
-   "note": "Bål, taler og musik — hele byen på gaden om aftenen."
+   "note": "Bål, taler og musik — hele byen på gaden om aftenen.",
+   "source": "Manuel liste"
   },
   {
    "cafe": "helsingor",
@@ -34,7 +90,8 @@
    "title": "Sommerkoncert: Medina + TV-2 + Annika (UDSOLGT)",
    "venue": "Kulturværftet, havnefronten",
    "impact": 3,
-   "note": "Udendørs storkoncert — tusindvis i havneområdet fra kl. 16."
+   "note": "Udendørs storkoncert — tusindvis i havneområdet fra kl. 16.",
+   "source": "Manuel liste"
   },
   {
    "cafe": "sydhavnen",
@@ -43,7 +100,8 @@
    "title": "🎉 Café Kaiser Sydhavnen åbner!",
    "venue": "Christians Langelands",
    "impact": 3,
-   "note": "Åbningsdag — fuld bemanding og ekstra hænder til opstart."
+   "note": "Åbningsdag — fuld bemanding og ekstra hænder til opstart.",
+   "source": "Manuel liste"
   },
   {
    "cafe": "vanlose",
@@ -52,7 +110,125 @@
    "title": "IRONMAN Copenhagen — rute gennem Vanløse",
    "venue": "Københavns gader",
    "impact": 3,
-   "note": "Cykel- og løberute gennem bydelen hele dagen. Største dag på året."
+   "note": "Cykel- og løberute gennem bydelen hele dagen. Største dag på året.",
+   "source": "Manuel liste"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-08-21",
+   "time": "",
+   "title": "Nyt i kalenderen",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-08-28",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-08-29",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-08-30",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-08-31",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-01",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-02",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-03",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-04",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-05",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-06",
+   "time": "",
+   "title": "Shrek the Musical",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-18",
+   "time": "",
+   "title": "Davis Cup: Danmark – Bulgarien",
+   "venue": "Royal Stage",
+   "impact": 3,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-19",
+   "time": "",
+   "title": "Davis Cup: Danmark – Bulgarien",
+   "venue": "Royal Stage",
+   "impact": 3,
+   "source": "Royal Stage"
   },
   {
    "cafe": "vanlose",
@@ -61,7 +237,8 @@
    "title": "VM i halvmaraton (World Athletics) — dag 1",
    "venue": "Københavns gader",
    "impact": 3,
-   "note": "Road Mile + indledende løb. Massiv international begivenhed."
+   "note": "Road Mile + indledende løb. Massiv international begivenhed.",
+   "source": "Manuel liste"
   },
   {
    "cafe": "vanlose",
@@ -70,7 +247,17 @@
    "title": "VM i halvmaraton (World Athletics) — dag 2 + CPH Half",
    "venue": "Københavns gader",
    "impact": 3,
-   "note": "Halvmaraton-finaler + masseløb. Vejlukninger og publikum i hele byen."
+   "note": "Halvmaraton-finaler + masseløb. Vejlukninger og publikum i hele byen.",
+   "source": "Manuel liste"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-09-25",
+   "time": "20:00",
+   "title": "Strik & Drik",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
   },
   {
    "cafe": "farum",
@@ -79,7 +266,116 @@
    "title": "AIRTOX FACEOFF League 2026 — Runde 4",
    "venue": "Farum Arena",
    "impact": 2,
-   "note": "Stor gymnastikevent, fyldt arena."
+   "note": "Stor gymnastikevent, fyldt arena.",
+   "source": "Manuel liste"
+  },
+  {
+   "cafe": "horsholm",
+   "date": "2026-10-07",
+   "time": "",
+   "title": "Byttedag i Trommen",
+   "venue": "Hørsholm",
+   "impact": 1,
+   "source": "Hørsholm/Rungsted"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-10-08",
+   "time": "20:00",
+   "title": "Østkyst Hustlers",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-10-10",
+   "time": "18:00",
+   "title": "NORTH BEAT",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-10-30",
+   "time": "",
+   "title": "Folkeklubben & Danmarks Underholdningsorkester",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-11-13",
+   "time": "20:00",
+   "title": "Freja Kirk – ’Hey Freja’",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-11-21",
+   "time": "19:30",
+   "title": "Satiregruppen Magt",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2026-12-10",
+   "time": "20:00",
+   "title": "Stig Rossen – Årets julekoncert 2026",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2027-01-28",
+   "time": "20:00",
+   "title": "Trines mor – Det bliver et helvede",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2027-03-11",
+   "time": "19:30",
+   "title": "Pelles fest",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2027-04-02",
+   "time": "18:30",
+   "title": "Nikolaj Stokholm feat. Stokkefar",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2027-04-16",
+   "time": "20:00",
+   "title": "The Greatest Love of All – A Tribute to Whitney Houston",
+   "venue": "Royal Stage",
+   "impact": 2,
+   "source": "Royal Stage"
+  },
+  {
+   "cafe": "hillerod",
+   "date": "2027-05-21",
+   "time": "20:00",
+   "title": "Solar Festival",
+   "venue": "Royal Stage",
+   "impact": 3,
+   "source": "Royal Stage"
   }
  ]
 }
