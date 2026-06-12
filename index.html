@@ -56,7 +56,7 @@ header{
   font-family:'Archivo',sans-serif;font-weight:900;font-size:22px;
   color:var(--espresso);
   flex-shrink:0;
-  <img src="logo.png">
+  /* I morgen: erstat dette div-indhold med <img src="logo.png"> */
 }
 .header-title{display:flex;flex-direction:column}
 .header-title h1{
@@ -300,7 +300,7 @@ footer b{color:var(--cream-dim)}
 <main class="days" id="dayList"></main>
 
 <footer>
-  <b>Kaiser Vagtplan kalender v0.1 </b> · udviklet af Stefan · 
+  <b>Kaiser Vagtvarsling v0.1 (prototype)</b> · Dummy-data · Automatisk dataopdatering via GitHub Actions kommer i v1.0
 </footer>
 
 <script>
@@ -315,7 +315,7 @@ const CAFES = [
   {id:'farum',     name:'Farum'},
   {id:'vanlose',   name:'Vanløse'},
   {id:'horsholm',  name:'Hørsholm'},
-  {id:'sydhavnen', name:'Sydhavnen', opens:'2026-07-08', address:'Christians Langeplads'},
+  {id:'sydhavnen', name:'Sydhavnen', opens:'2026-07-08', address:'Christians Langelands'},
 ];
 
 /* impact: 3 = rød (høj), 2 = gul (forhøjet), 1 = grøn (mindre) */
@@ -366,6 +366,11 @@ const ADVICE = {
 };
 
 let activeCafe = 'hillerod';
+let WEATHER = {};   // {cafe: {dato: {t: maxtemp, p: regn%, c: vejrkode}}}
+/* Center-cafeer: dårligt vejr → ekstra indendørstrafik */
+const MALL_CAFES = ['hillerod','farum','vanlose','horsholm'];
+const WMOJI = c => c==null?'' : c===0?'☀️' : c<=2?'🌤️' : c===3?'☁️' : c<=48?'🌫️' : c<=67?'🌧️' : c<=77?'❄️' : c<=82?'🌦️' : '⛈️';
+const isBadWeather = w => w && ((w.p!=null && w.p>=60) || (w.t!=null && w.t<=8));
 
 /* ---------- RENDER: chips ---------- */
 const chipWrap = document.getElementById('cafeChips');
@@ -454,6 +459,10 @@ function render(){
     const d = new Date(dt);
     const lvl = dayLevel[dt];
     const [bc, bt] = badgeTxt[lvl];
+    const w = (WEATHER[activeCafe]||{})[dt];
+    const wHtml = w ? `<span class="mon" style="margin-top:4px">${WMOJI(w.c)} ${w.t!=null?w.t+'°':''}${w.p!=null&&w.p>=30?' · '+w.p+'%☔':''}</span>` : '';
+    const badW = isBadWeather(w) && MALL_CAFES.includes(activeCafe)
+      ? `<div class="event" style="border-left:3px solid var(--brass)"><span class="event-time">🌧️</span><div class="event-info"><div class="event-title">Dårligt vejr-varsel</div><div class="event-meta">Regn/kulde driver folk ind i centret — forvent ekstra indendørstrafik udover events.</div></div></div>` : '';
     const card = document.createElement('article');
     card.className = `day-card lvl-${lvl}`;
     card.id = 'day-'+dt;
@@ -463,12 +472,14 @@ function render(){
         <span class="dow">${DOWS[d.getDay()]}</span>
         <span class="num">${d.getDate()}</span>
         <span class="mon">${MONTHS[d.getMonth()]} ${d.getFullYear()}</span>
+        ${wHtml}
       </div>
       <div class="day-body">
         <div class="day-head">
           <span class="badge ${bc}">${bt}</span>
           <span class="advice">${ADVICE[lvl]}</span>
         </div>
+        ${badW}
         ${byDate[dt].map(e=>`
           <div class="event">
             <span class="event-time">${e.time}</span>
@@ -491,6 +502,7 @@ async function loadLive(){
     const data = await r.json();
     if(Array.isArray(data.events) && data.events.length){
       EVENTS = data.events;
+      WEATHER = data.weather || {};
       const ok = (data.sources||[]).filter(s=>s.ok).length;
       const total = (data.sources||[]).length;
       const bad = (data.sources||[]).filter(s=>!s.ok).map(s=>s.name);
