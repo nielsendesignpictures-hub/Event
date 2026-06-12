@@ -1,0 +1,39 @@
+name: Opdater eventdata
+
+on:
+  schedule:
+    - cron: "0 2 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hent repo
+        uses: actions/checkout@v4
+
+      - name: Opsæt Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installér afhængigheder
+        run: pip install -r scripts/requirements.txt
+
+      - name: Hent events fra alle kilder
+        run: python scripts/fetch_events.py
+
+      - name: Commit events.json hvis ændret
+        run: |
+          git config user.name "kaiser-bot"
+          git config user.email "actions@github.com"
+          git add events.json
+          if git diff --cached --quiet; then
+            echo "Ingen ændringer i nat."
+          else
+            git commit -m "Natlig dataopdatering: $(date +'%d.%m.%Y')"
+            git push
+          fi
