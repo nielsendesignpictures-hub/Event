@@ -237,7 +237,7 @@ SCRAPE_SOURCES = [
     {"name":"Kronborg",          "cafe":"helsingor", "url":"https://kronborg.dk/en/events/tours-and-events","venue":"Kronborg",            "default_impact":1},
     {"name":"Hørsholm/Rungsted", "cafe":"horsholm",  "url":"https://horsholm-rungsted.dk/eventkalender/",   "venue":"Hørsholm",            "default_impact":1},
 ]
-]
+
 
 def fetch_scrape_source(src, today):
     r = requests.get(src["url"], headers=UA, timeout=TIMEOUT)
