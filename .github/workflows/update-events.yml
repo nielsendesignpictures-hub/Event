@@ -27,6 +27,8 @@ jobs:
 
       - name: Hent events fra alle kilder
         run: python scripts/fetch_events.py
+        env:
+          TM_API_KEY: ${{ secrets.TM_API_KEY }}
 
       - name: Commit events.json hvis ændret
         run: |
