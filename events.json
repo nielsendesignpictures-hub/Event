@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03 06:45",
+ "generated": "2026-09-04 06:50",
  "sources": [
   {
    "name": "TM:Royal Stage",
@@ -16,7 +16,7 @@
   {
    "name": "Royal Stage",
    "ok": true,
-   "count": 25,
+   "count": 24,
    "strategy": "headings"
   },
   {
@@ -77,24 +77,6 @@
  "events": [
   {
    "cafe": "hillerod",
-   "date": "2026-09-03",
-   "time": "",
-   "title": "Shrek the Musical",
-   "venue": "Royal Stage",
-   "impact": 2,
-   "source": "Royal Stage"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-03",
-   "time": "",
-   "title": "Salon T: Sensommerfejring",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "hillerod",
    "date": "2026-09-04",
    "time": "",
    "title": "Shrek the Musical",
@@ -124,34 +106,16 @@
    "cafe": "helsingor",
    "date": "2026-09-06",
    "time": "",
+   "title": "Knejpe Festival 2026",
+   "venue": "Toldkammeret",
+   "impact": 3,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-09-07",
+   "time": "",
    "title": "Mandagsjam",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-07",
-   "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-07",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-07",
-   "time": "",
-   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -160,7 +124,7 @@
    "cafe": "helsingor",
    "date": "2026-09-09",
    "time": "",
-   "title": "Sensommerfesten",
+   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -169,34 +133,16 @@
    "cafe": "helsingor",
    "date": "2026-09-11",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
+   "title": "Knejpe Festival 2026",
    "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-14",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-14",
-   "time": "",
-   "title": "Open Mic",
-   "venue": "Toldkammeret",
-   "impact": 1,
+   "impact": 3,
    "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
    "date": "2026-09-16",
    "time": "",
-   "title": "Hold 3: Kunst & Design",
+   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -205,7 +151,7 @@
    "cafe": "helsingor",
    "date": "2026-09-17",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
+   "title": "Fredscafé: Kan man afskrække sig til fred?",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -252,16 +198,7 @@
    "cafe": "helsingor",
    "date": "2026-09-21",
    "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-21",
-   "time": "",
-   "title": "Podcastværkstedet: Speak og performance",
+   "title": "Fælleslæsning – Et åndehul i hverdagen",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -270,7 +207,7 @@
    "cafe": "helsingor",
    "date": "2026-09-22",
    "time": "",
-   "title": "Fyraftenssang i Toldkammergården",
+   "title": "Podcastværkstedet: Reportage",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -279,7 +216,7 @@
    "cafe": "helsingor",
    "date": "2026-09-23",
    "time": "",
-   "title": "Åbent kontor i Toldkammeret",
+   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -288,7 +225,7 @@
    "cafe": "helsingor",
    "date": "2026-09-24",
    "time": "",
-   "title": "Solo Swingdans: Great Gatsby aften",
+   "title": "Åbent kontor i Toldkammeret",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -297,7 +234,7 @@
    "cafe": "helsingor",
    "date": "2026-09-25",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
+   "title": "Instant Disco",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -332,27 +269,9 @@
   },
   {
    "cafe": "helsingor",
-   "date": "2026-09-28",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-09-28",
-   "time": "",
-   "title": "Samtalecafe og erindringsdialoger",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
    "date": "2026-09-29",
    "time": "",
-   "title": "Quiz eller resten i Håret",
+   "title": "Hold 3: Kunst & Design",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -361,32 +280,14 @@
    "cafe": "helsingor",
    "date": "2026-09-30",
    "time": "",
-   "title": "Knejpe Festival 2026",
-   "venue": "Toldkammeret",
-   "impact": 3,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-02",
-   "time": "",
-   "title": "Knejpe Festival 2026",
-   "venue": "Toldkammeret",
-   "impact": 3,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-03",
-   "time": "",
-   "title": "Mandagsjam",
+   "title": "Instant Disco",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
-   "date": "2026-10-05",
+   "date": "2026-10-02",
    "time": "",
    "title": "Fælleslæsning – Et åndehul i hverdagen",
    "venue": "Toldkammeret",
@@ -395,9 +296,9 @@
   },
   {
    "cafe": "helsingor",
-   "date": "2026-10-05",
+   "date": "2026-10-03",
    "time": "",
-   "title": "Croquis tegning",
+   "title": "Hvordan kan Dirigenten hjælpe dig?",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -406,7 +307,7 @@
    "cafe": "helsingor",
    "date": "2026-10-05",
    "time": "",
-   "title": "Podcastværkstedet: Lyddesign",
+   "title": "Åbent kontor i Toldkammeret",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -415,7 +316,7 @@
    "cafe": "helsingor",
    "date": "2026-10-06",
    "time": "",
-   "title": "Fyraftenssang i Toldkammergården",
+   "title": "Podcastværkstedet: Speak og performance",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -424,7 +325,7 @@
    "cafe": "helsingor",
    "date": "2026-10-07",
    "time": "",
-   "title": "Ashes of Billy",
+   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -433,7 +334,7 @@
    "cafe": "helsingor",
    "date": "2026-10-08",
    "time": "",
-   "title": "Fredscafé: Kan man afskrække sig til fred?",
+   "title": "Salon T: Sensommerfejring",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -460,7 +361,7 @@
    "cafe": "helsingor",
    "date": "2026-10-14",
    "time": "",
-   "title": "Vilma Crow",
+   "title": "Podcastværkstedet: Laaang lørdag",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -469,25 +370,7 @@
    "cafe": "helsingor",
    "date": "2026-10-15",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-19",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-19",
-   "time": "",
-   "title": "Fyraftenssang i Toldkammergården",
+   "title": "Mandagsjam",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -505,7 +388,7 @@
    "cafe": "helsingor",
    "date": "2026-10-21",
    "time": "",
-   "title": "Podcastværkstedet: Laaang lørdag",
+   "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -514,7 +397,7 @@
    "cafe": "helsingor",
    "date": "2026-10-22",
    "time": "",
-   "title": "Instant Disco",
+   "title": "Solo Swingdans: Jule-swing-bal",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -532,7 +415,7 @@
    "cafe": "helsingor",
    "date": "2026-10-24",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
+   "title": "Podcastværkstedet: Lyddesign",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -541,25 +424,7 @@
    "cafe": "helsingor",
    "date": "2026-10-26",
    "time": "",
-   "title": "Hvordan kan Dirigenten hjælpe dig?",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-26",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-10-26",
-   "time": "",
-   "title": "Samtalecafe og erindringsdialoger",
+   "title": "Sensommerfesten",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -568,7 +433,7 @@
    "cafe": "helsingor",
    "date": "2026-10-27",
    "time": "",
-   "title": "Quiz eller resten i Håret",
+   "title": "Samtalecafe og erindringsdialoger",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -577,7 +442,7 @@
    "cafe": "helsingor",
    "date": "2026-10-28",
    "time": "",
-   "title": "Åbent kontor i Toldkammeret",
+   "title": "Quiz eller resten i Håret",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -586,7 +451,7 @@
    "cafe": "helsingor",
    "date": "2026-10-29",
    "time": "",
-   "title": "Instant Disco",
+   "title": "Samtalecafe og erindringsdialoger",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -604,7 +469,7 @@
    "cafe": "helsingor",
    "date": "2026-10-30",
    "time": "",
-   "title": "Mandagsjam",
+   "title": "Instant Disco",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
@@ -631,23 +496,14 @@
    "cafe": "helsingor",
    "date": "2026-11-02",
    "time": "",
-   "title": "Fælleslæsning – Et åndehul i hverdagen",
+   "title": "Mandagsjam",
    "venue": "Toldkammeret",
    "impact": 1,
    "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
-   "date": "2026-11-02",
-   "time": "",
-   "title": "Croquis tegning",
-   "venue": "Toldkammeret",
-   "impact": 1,
-   "source": "Toldkammeret"
-  },
-  {
-   "cafe": "helsingor",
-   "date": "2026-11-02",
+   "date": "2026-11-04",
    "time": "",
    "title": "Fyraftenssang i Toldkammergården",
    "venue": "Toldkammeret",
@@ -673,6 +529,69 @@
    "source": "Royal Stage"
   },
   {
+   "cafe": "helsingor",
+   "date": "2026-11-17",
+   "time": "",
+   "title": "Podcastværkstedet: Udgivelse",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-18",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-18",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-20",
+   "time": "",
+   "title": "Instant Disco",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Det glæder vi os til",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Halberg HALVTREDS",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Nyt i kalenderen",
+   "venue": "Kulturværftet",
+   "impact": 1,
+   "source": "Kulturværftet"
+  },
+  {
    "cafe": "hillerod",
    "date": "2026-11-21",
    "time": "19:30",
@@ -683,30 +602,48 @@
   },
   {
    "cafe": "helsingor",
-   "date": "2026-11-28",
+   "date": "2026-11-24",
    "time": "",
-   "title": "Det glæder vi os til",
-   "venue": "Kulturværftet",
+   "title": "Samtalecafe og erindringsdialoger",
+   "venue": "Toldkammeret",
    "impact": 1,
-   "source": "Kulturværftet"
+   "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
-   "date": "2026-11-28",
+   "date": "2026-11-25",
    "time": "",
-   "title": "Udsolgt: Pil",
-   "venue": "Kulturværftet",
-   "impact": 3,
-   "source": "Kulturværftet"
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "helsingor",
-   "date": "2026-11-28",
+   "date": "2026-11-26",
    "time": "",
-   "title": "Nyt i kalenderen",
-   "venue": "Kulturværftet",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
    "impact": 1,
-   "source": "Kulturværftet"
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-02",
+   "time": "",
+   "title": "Solo Swingdans: Great Gatsby aften",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-09",
+   "time": "",
+   "title": "Quiz eller resten i Håret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -716,6 +653,60 @@
    "venue": "Royal Stage",
    "impact": 2,
    "source": "Royal Stage"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-15",
+   "time": "",
+   "title": "Ashes of Billy",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-16",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-16",
+   "time": "",
+   "title": "Fyraftenssang i Toldkammergården",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-17",
+   "time": "",
+   "title": "Vilma Crow",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-17",
+   "time": "",
+   "title": "Åbent kontor i Toldkammeret",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
+  },
+  {
+   "cafe": "helsingor",
+   "date": "2026-12-18",
+   "time": "",
+   "title": "Open Mic",
+   "venue": "Toldkammeret",
+   "impact": 1,
+   "source": "Toldkammeret"
   },
   {
    "cafe": "hillerod",
@@ -1632,50 +1623,45 @@
  ],
  "weather": {
   "hillerod": {
-   "2026-09-03": {
-    "t": 18,
-    "p": 100,
-    "c": 53
-   },
    "2026-09-04": {
-    "t": 17,
-    "p": 90,
-    "c": 61
+    "t": 16,
+    "p": 100,
+    "c": 63
    },
    "2026-09-05": {
-    "t": 18,
-    "p": 96,
-    "c": 53
+    "t": 17,
+    "p": 94,
+    "c": 55
    },
    "2026-09-06": {
     "t": 18,
-    "p": 49,
-    "c": 53
-   },
-   "2026-09-07": {
-    "t": 20,
-    "p": 18,
+    "p": 31,
     "c": 3
    },
-   "2026-09-08": {
-    "t": 18,
-    "p": 48,
+   "2026-09-07": {
+    "t": 21,
+    "p": 11,
     "c": 53
    },
+   "2026-09-08": {
+    "t": 19,
+    "p": 63,
+    "c": 80
+   },
    "2026-09-09": {
-    "t": 17,
-    "p": 75,
+    "t": 16,
+    "p": 82,
     "c": 53
    },
    "2026-09-10": {
-    "t": 14,
+    "t": 15,
     "p": 53,
     "c": 55
    },
    "2026-09-11": {
-    "t": 17,
+    "t": 16,
     "p": 28,
-    "c": 51
+    "c": 3
    },
    "2026-09-12": {
     "t": 14,
@@ -1683,409 +1669,409 @@
     "c": 51
    },
    "2026-09-13": {
-    "t": 17,
-    "p": 37,
-    "c": 51
-   },
-   "2026-09-14": {
-    "t": 14,
-    "p": 38,
-    "c": 3
-   },
-   "2026-09-15": {
-    "t": 14,
-    "p": 29,
-    "c": 3
-   },
-   "2026-09-16": {
     "t": 16,
-    "p": 24,
+    "p": 37,
     "c": 53
    },
+   "2026-09-14": {
+    "t": 15,
+    "p": 38,
+    "c": 95
+   },
+   "2026-09-15": {
+    "t": 15,
+    "p": 29,
+    "c": 51
+   },
+   "2026-09-16": {
+    "t": 14,
+    "p": 24,
+    "c": 51
+   },
    "2026-09-17": {
+    "t": 14,
+    "p": null,
+    "c": 51
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
    }
   },
   "helsingor": {
-   "2026-09-03": {
-    "t": 18,
-    "p": 100,
-    "c": 61
-   },
    "2026-09-04": {
     "t": 17,
-    "p": 92,
+    "p": 100,
     "c": 63
    },
    "2026-09-05": {
-    "t": 18,
-    "p": 97,
-    "c": 80
+    "t": 17,
+    "p": 94,
+    "c": 53
    },
    "2026-09-06": {
     "t": 18,
-    "p": 51,
-    "c": 80
-   },
-   "2026-09-07": {
-    "t": 19,
-    "p": 16,
+    "p": 36,
     "c": 3
    },
+   "2026-09-07": {
+    "t": 20,
+    "p": 12,
+    "c": 51
+   },
    "2026-09-08": {
-    "t": 18,
-    "p": 43,
-    "c": 53
+    "t": 19,
+    "p": 65,
+    "c": 81
    },
    "2026-09-09": {
-    "t": 17,
-    "p": 77,
+    "t": 16,
+    "p": 73,
     "c": 53
    },
    "2026-09-10": {
-    "t": 14,
+    "t": 15,
     "p": 57,
-    "c": 51
+    "c": 53
    },
    "2026-09-11": {
-    "t": 17,
+    "t": 16,
     "p": 27,
     "c": 51
    },
    "2026-09-12": {
     "t": 14,
     "p": 43,
-    "c": 53
+    "c": 3
    },
    "2026-09-13": {
-    "t": 16,
+    "t": 15,
     "p": 36,
-    "c": 51
-   },
-   "2026-09-14": {
-    "t": 14,
-    "p": 37,
-    "c": 3
-   },
-   "2026-09-15": {
-    "t": 14,
-    "p": 30,
-    "c": 3
-   },
-   "2026-09-16": {
-    "t": 17,
-    "p": 20,
     "c": 53
    },
+   "2026-09-14": {
+    "t": 15,
+    "p": 37,
+    "c": 53
+   },
+   "2026-09-15": {
+    "t": 15,
+    "p": 30,
+    "c": 53
+   },
+   "2026-09-16": {
+    "t": 14,
+    "p": 20,
+    "c": 51
+   },
    "2026-09-17": {
+    "t": 14,
+    "p": null,
+    "c": 51
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
    }
   },
   "farum": {
-   "2026-09-03": {
-    "t": 18,
-    "p": 100,
-    "c": 53
-   },
    "2026-09-04": {
     "t": 16,
-    "p": 94,
+    "p": 100,
     "c": 63
    },
    "2026-09-05": {
-    "t": 18,
-    "p": 94,
-    "c": 51
+    "t": 17,
+    "p": 95,
+    "c": 63
    },
    "2026-09-06": {
     "t": 18,
-    "p": 27,
-    "c": 51
-   },
-   "2026-09-07": {
-    "t": 20,
-    "p": 14,
+    "p": 12,
     "c": 3
    },
+   "2026-09-07": {
+    "t": 21,
+    "p": 8,
+    "c": 51
+   },
    "2026-09-08": {
-    "t": 18,
-    "p": 45,
-    "c": 53
+    "t": 19,
+    "p": 69,
+    "c": 55
    },
    "2026-09-09": {
-    "t": 17,
-    "p": 72,
-    "c": 53
+    "t": 16,
+    "p": 81,
+    "c": 55
    },
    "2026-09-10": {
-    "t": 14,
+    "t": 16,
     "p": 47,
-    "c": 80
+    "c": 53
    },
    "2026-09-11": {
-    "t": 17,
+    "t": 16,
     "p": 31,
     "c": 51
    },
    "2026-09-12": {
-    "t": 14,
+    "t": 15,
     "p": 35,
     "c": 51
    },
    "2026-09-13": {
-    "t": 17,
+    "t": 16,
     "p": 36,
-    "c": 51
+    "c": 53
    },
    "2026-09-14": {
-    "t": 14,
+    "t": 15,
     "p": 29,
-    "c": 3
+    "c": 53
    },
    "2026-09-15": {
     "t": 15,
     "p": 29,
-    "c": 3
+    "c": 51
    },
    "2026-09-16": {
-    "t": 16,
+    "t": 14,
     "p": 20,
-    "c": 53
+    "c": 51
    },
    "2026-09-17": {
+    "t": 14,
+    "p": null,
+    "c": 51
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
    }
   },
   "vanlose": {
-   "2026-09-03": {
-    "t": 19,
-    "p": 100,
-    "c": 53
-   },
    "2026-09-04": {
     "t": 17,
-    "p": 93,
+    "p": 100,
     "c": 63
    },
    "2026-09-05": {
     "t": 18,
-    "p": 97,
-    "c": 51
+    "p": 94,
+    "c": 61
    },
    "2026-09-06": {
     "t": 18,
-    "p": 34,
-    "c": 51
+    "p": 15,
+    "c": 3
    },
    "2026-09-07": {
-    "t": 19,
-    "p": 16,
+    "t": 20,
+    "p": 10,
     "c": 3
    },
    "2026-09-08": {
-    "t": 18,
-    "p": 45,
-    "c": 53
+    "t": 19,
+    "p": 71,
+    "c": 55
    },
    "2026-09-09": {
-    "t": 17,
-    "p": 64,
+    "t": 16,
+    "p": 77,
     "c": 53
    },
    "2026-09-10": {
-    "t": 14,
+    "t": 15,
     "p": 46,
     "c": 51
    },
    "2026-09-11": {
     "t": 17,
     "p": 25,
-    "c": 51
+    "c": 3
    },
    "2026-09-12": {
-    "t": 15,
+    "t": 14,
     "p": 39,
     "c": 51
    },
    "2026-09-13": {
-    "t": 17,
+    "t": 16,
     "p": 36,
-    "c": 51
+    "c": 53
    },
    "2026-09-14": {
     "t": 15,
     "p": 30,
-    "c": 3
+    "c": 53
    },
    "2026-09-15": {
     "t": 15,
     "p": 25,
-    "c": 3
+    "c": 51
    },
    "2026-09-16": {
-    "t": 16,
+    "t": 13,
     "p": 24,
-    "c": 53
+    "c": 51
    },
    "2026-09-17": {
+    "t": 15,
+    "p": null,
+    "c": 51
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
    }
   },
   "horsholm": {
-   "2026-09-03": {
-    "t": 18,
-    "p": 100,
-    "c": 53
-   },
    "2026-09-04": {
-    "t": 17,
-    "p": 92,
-    "c": 61
+    "t": 16,
+    "p": 100,
+    "c": 63
    },
    "2026-09-05": {
-    "t": 18,
-    "p": 97,
-    "c": 53
+    "t": 17,
+    "p": 94,
+    "c": 61
    },
    "2026-09-06": {
     "t": 18,
-    "p": 51,
-    "c": 53
+    "p": 36,
+    "c": 3
    },
    "2026-09-07": {
-    "t": 19,
-    "p": 16,
+    "t": 20,
+    "p": 12,
     "c": 3
    },
    "2026-09-08": {
-    "t": 18,
-    "p": 43,
-    "c": 80
+    "t": 19,
+    "p": 65,
+    "c": 55
    },
    "2026-09-09": {
-    "t": 17,
-    "p": 77,
+    "t": 16,
+    "p": 73,
     "c": 53
    },
    "2026-09-10": {
-    "t": 14,
+    "t": 15,
     "p": 57,
     "c": 53
    },
    "2026-09-11": {
-    "t": 17,
+    "t": 16,
     "p": 27,
     "c": 51
    },
    "2026-09-12": {
-    "t": 14,
+    "t": 15,
     "p": 43,
-    "c": 55
+    "c": 51
    },
    "2026-09-13": {
     "t": 16,
     "p": 36,
-    "c": 51
+    "c": 53
    },
    "2026-09-14": {
-    "t": 14,
+    "t": 15,
     "p": 37,
-    "c": 3
+    "c": 53
    },
    "2026-09-15": {
     "t": 15,
     "p": 30,
-    "c": 3
+    "c": 51
    },
    "2026-09-16": {
-    "t": 16,
+    "t": 13,
     "p": 20,
-    "c": 53
+    "c": 51
    },
    "2026-09-17": {
+    "t": 14,
+    "p": null,
+    "c": 51
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
    }
   },
   "sydhavnen": {
-   "2026-09-03": {
-    "t": 18,
-    "p": 100,
-    "c": 53
-   },
    "2026-09-04": {
-    "t": 18,
-    "p": 93,
-    "c": 63
+    "t": 17,
+    "p": 100,
+    "c": 61
    },
    "2026-09-05": {
     "t": 18,
-    "p": 97,
-    "c": 51
+    "p": 94,
+    "c": 61
    },
    "2026-09-06": {
     "t": 18,
-    "p": 34,
-    "c": 51
+    "p": 15,
+    "c": 3
    },
    "2026-09-07": {
     "t": 19,
-    "p": 16,
+    "p": 10,
     "c": 3
    },
    "2026-09-08": {
     "t": 19,
-    "p": 45,
-    "c": 53
+    "p": 71,
+    "c": 80
    },
    "2026-09-09": {
-    "t": 17,
-    "p": 64,
+    "t": 16,
+    "p": 77,
     "c": 53
    },
    "2026-09-10": {
-    "t": 13,
+    "t": 15,
     "p": 46,
     "c": 53
    },
    "2026-09-11": {
-    "t": 16,
+    "t": 17,
     "p": 25,
-    "c": 51
+    "c": 3
    },
    "2026-09-12": {
     "t": 15,
@@ -2093,31 +2079,36 @@
     "c": 51
    },
    "2026-09-13": {
-    "t": 17,
+    "t": 16,
     "p": 36,
-    "c": 51
+    "c": 53
    },
    "2026-09-14": {
-    "t": 15,
+    "t": 14,
     "p": 30,
-    "c": 3
+    "c": 51
    },
    "2026-09-15": {
     "t": 15,
     "p": 25,
-    "c": 3
+    "c": 51
    },
    "2026-09-16": {
-    "t": 15,
+    "t": 13,
     "p": 24,
-    "c": 53
+    "c": 51
    },
    "2026-09-17": {
+    "t": 15,
+    "p": null,
+    "c": 53
+   },
+   "2026-09-18": {
     "t": null,
     "p": null,
     "c": null
    },
-   "2026-09-18": {
+   "2026-09-19": {
     "t": null,
     "p": null,
     "c": null
